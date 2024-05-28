@@ -1,0 +1,48 @@
+h1{
+    color:rgba(205, 199, 12);
+    text-shadow: 2px 2px 2.5px rgba(205, 199, 12);
+}
+
+body{
+    background-color: rgb(177, 10, 207);
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+.col-1{
+    width: 80px;
+    height: 80px;
+    margin: 0.4px;
+    padding: 0px;
+}
+
+.grids{
+    width: 100%;
+    height: 100%;
+    border-radius: 10%;
+    box-shadow: 3px 3px 2px 2px rgba(50, 50, 50);
+}
+
+.badge.rounded-pill.text-bg-warning{
+    height: 25px;
+    box-shadow: 3px 3px 1.5px 1px rgba(50, 50, 50);
+    color: rgb(31, 131, 184);
+}
+
+.card-body{
+    color: rgb(46, 10, 207);
+}
+
+.play-button{
+    border-radius: 3px;
+    width: 60px;
+    background-color: green;
+    box-shadow: 3px 3px 1.5px 1px rgba(50, 50, 50);
+}
+
+.play-button:hover{
+    background-color: beige;
+    transform: translate(0px, -2px);
+    transition: 0.5s ease-in-out;
+}
